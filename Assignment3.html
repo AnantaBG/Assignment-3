@@ -4,7 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment-3</title>
+    <!-- Fonts CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">     
+    <!-- Icons CDN -->
     <script src="https://kit.fontawesome.com/73ea2f6992.js" crossorigin="anonymous"></script>
+    <!-- DaisyUI CDN -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -19,12 +25,12 @@
         }
       </script>
 </head>
-<body>
+<body class="font-Manrope">
 <!-- Header Section -->
 <header>
 <!-- Starting of the Navbar section -->
 <section>
-    <nav class="mx-auto lg:mx-20">
+    <nav class="mx-0 lg:mx-20">
         <div class="navbar bg-base-100  ">
             <div class="navbar-start">
                 <a class="btn btn-ghost text-2xl lg:text-4xl font-bold"><i class="fa-solid fa-arrow-right bg-lime-400 w-10 h-10 lg:w-12 lg:h-12 p-2 rounded-full -rotate-45"></i>Rinterio</a>
@@ -38,7 +44,7 @@
                 <li>Contact Us</li>
                 </ul>
             </div>
-            <div class="lg:relative relative navbar-end  flex gap-4 ml-40 lg:ml-20 ">
+            <div class="lg:relative relative navbar-end  flex lg:gap-4 lg:ml-20 ">
             <div class="invisible lg:visible">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
                 <path d="M17.5 17.5L22 22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
@@ -59,7 +65,7 @@
         <div class="ml-24 lg:ml-auto">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          class="h-5 w-5 mb-10 lg:invisible dropdown"
+          class="h-5 w-5 mb-10 lg:invisible"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor">
@@ -78,7 +84,24 @@
 </header>
 
 <!-- Main Section -->
-<main></main>
+<main class="">
+<!--  Banner Section  -->
+<section class="mx-auto">
+<div><img class="mx-auto" src="images/banner.png" alt=""></div>
+<div class="hero">
+  <div class="hero-content text-center">
+    <div class="max-w-3xl">
+      <h1 class="text-5xl font-bold">A barn house of this design has a striking appearance</h1>
+      <p class="text-sm py-6">
+        The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.
+      </p>
+      <button class="btn btn-success rounded-r-full rounded-l-full bg-lime-200 font-bold">View Details<i class="fa-solid fa-arrow-right w-8 h-8 bg-lime-400 text-sm font-semibold text-black rounded-full -rotate-45 py-1.5"></i></button>
+    </div>
+  </div>
+</div>
+</section>
+<!-- Finished Banner Section with Responsiveness -->
+</main>
 
 <!-- Footer Section -->
 <footer></footer>
