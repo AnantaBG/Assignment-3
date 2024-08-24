@@ -3,11 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment-3</title>
-    <!-- Fonts CDN -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">     
+    <title>Assignment-3</title>  
     <!-- Icons CDN -->
     <script src="https://kit.fontawesome.com/73ea2f6992.js" crossorigin="anonymous"></script>
     <!-- DaisyUI CDN -->
@@ -24,16 +20,42 @@
           }
         }
       </script>
+      <style>
+            @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Dawning+of+a+New+Day&family=Manrope&family=Qwitcher+Grypen:wght@400;700&display=swap');
+      
+            .qwitcher-grypen-regular {
+            font-family: "Qwitcher Grypen", cursive;
+            font-weight: 400;
+            font-style: normal;
+            }
+            .manrope-regular {
+            font-family: "Manrope", system-ui;
+              font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+            }
+            .dancing-script-regular {
+            font-family: "Dancing Script", cursive;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+            }
+            .dawning-of-a-new-day-regular {
+            font-family: "Dawning of a New Day", cursive;
+            font-weight: 400;
+            font-style: normal;
+            }
+
+      </style>
 </head>
-<body class="font-Manrope">
+<body class="manrope-regular">
 <!-- Header Section -->
-<header>
 <!-- Starting of the Navbar section -->
 <section>
     <nav class="mx-0 lg:mx-20">
         <div class="navbar bg-base-100  ">
             <div class="navbar-start">
-                <a class="btn btn-ghost text-2xl lg:text-4xl font-bold"><i class="fa-solid fa-arrow-right bg-lime-500 w-10 h-10 lg:w-12 lg:h-12 p-2 rounded-full -rotate-45"></i>Rinterio</a>
+                <a class="btn btn-ghost text-2xl lg:text-4xl font-extrabold"><i class="fa-solid fa-arrow-right bg-lime-500 w-10 h-10 lg:w-12 lg:h-12 p-2 rounded-full -rotate-45"></i>Rinterio</a>
             </div>
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal gap-6 text-2xl lg:ml-20">
@@ -60,7 +82,7 @@
             </svg>
             </div>
             <div class="lg:mt-14">
-        <div> <button class="btn overflow-ellipsis whitespace-nowrap invisible lg:visible text-base rounded-r-full rounded-l-full bg-lime-400 font-bold">Book consult <i class="fa-solid fa-arrow-right w-8 h-8 bg-slate-900 text-sm font-semibold text-white rounded-full -rotate-45 py-1.5"></i></button></div>
+        <div> <button class="btn overflow-ellipsis whitespace-nowrap invisible lg:visible text-base rounded-r-full rounded-l-full bg-lime-400 font-extrabold">Book consult <i class="fa-solid fa-arrow-right w-8 h-8 bg-slate-900 text-sm font-semibold text-white rounded-full -rotate-45 py-1.5"></i></button></div>
         
         <div class="ml-24 lg:ml-auto">
         <svg
@@ -84,7 +106,7 @@
 </header>
 
 <!-- Main Section -->
-<main class="">
+<main>
 <!--  Banner Section  -->
 <section class="mx-auto">
 <div><img class="mx-auto" src="images/banner.png" alt=""></div>
@@ -92,10 +114,10 @@
   <div class="hero-content text-center">
     <div class="max-w-3xl">
       <h1 class="text-5xl font-bold">A barn house of this design has a striking appearance</h1>
-      <p class="text-sm py-6">
+      <p class="text-sm py-6 font-light">
         The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.
       </p>
-      <button class="btn btn-success rounded-r-full rounded-l-full bg-lime-200 font-bold">View Details<i class="fa-solid fa-arrow-right w-8 h-8 bg-lime-400 text-sm font-semibold text-black rounded-full -rotate-45 py-1.5"></i></button>
+      <button class="btn btn-success rounded-r-full rounded-l-full bg-lime-200 font-extrabold">View Details<i class="fa-solid fa-arrow-right w-8 h-8 bg-lime-400 text-sm font-semibold text-black rounded-full -rotate-45 py-1.5"></i></button>
     </div>
   </div>
 </div>
@@ -108,9 +130,9 @@
       <div class="grid lg:flex">
         <div class=" flex flex-col items-center lg:items-start">
         <img class="lg:relative lg:-ml-20 invisible lg:visible" src="images/Vector.png" alt="">
-        <button class=" bg-gray-50 rounded-full py-1 px-3 -mt-5 lg:mt-5 ml-14 mb-5 lg:ml-0"><i class="fa-solid fa-arrow-right"></i>About Us</button>
-          <h1 class="text-2xl lg:text-4xl font-bold text-center ml-12 lg:text-left -mb-5 lg:mb-0 lg:ml-0">We design thoughtful,<br> liveable spaces</h1>
-          <p class="text-center ml-12 text-xs  lg:text-sm lg:text-left lg:ml-0 py-6">
+        <button class=" bg-gray-50 rounded-full font-extrabold py-1 px-3 -mt-5 lg:mt-5 ml-14 mb-5 lg:ml-0"><i class="fa-solid fa-arrow-right"></i>About Us</button>
+          <h1 class="text-2xl lg:text-4xl font-extrabold text-center ml-12 lg:text-left -mb-5 lg:mb-0 lg:ml-0">We design thoughtful,<br> liveable spaces</h1>
+          <p class="text-center ml-12 text-xs font-light lg:text-sm lg:text-left lg:ml-0 py-6">
             We design based on the requirements of the customers using modern sophistication,
             <br> featuring weathered wood, sleek metal accents.
           </p>
@@ -122,8 +144,8 @@
                   alt="Commercial" />
               </figure>
               <div class="ml-20 lg:ml-8">
-                <h2 class="card-title font-bold">Commercial</h2>
-                <p>Economic & Commercial House Ideas. Ideas on projects <br> to try for rentals ...</p>
+                <h2 class="card-title font-extrabold">Commercial</h2>
+                <p class="font-light">Economic & Commercial House Ideas. Ideas on projects <br> to try for rentals ...</p>
                 <div class="card-actions justify-end">
                 </div>
               </div>
@@ -135,8 +157,8 @@
                   alt="Residential" />
               </figure>
               <div class=" ml-20 lg:ml-8 ">
-                <h2 class="card-title font-bold">Residential</h2>
-                <p>A dwelling unit that constitutes housing that is sufficient <br>
+                <h2 class="card-title font-extrabold">Residential</h2>
+                <p class="font-light">A dwelling unit that constitutes housing that is sufficient <br>
                 to secure quality housing</p>
                 <div class="card-actions justify-end">
                 </div>
@@ -159,9 +181,9 @@
 <section class="hero bg-base-200 mx-auto">
 <div>
 <div class="flex flex-col items-center">
-  <button class=" bg-gray-50 rounded-full py-1 px-3 mt-10 lg:mt-20 mb-5 lg:ml-0"><i class="fa-solid fa-arrow-right"></i>How We Work</button>
-  <h1 class="text-2xl font-bold lg:text-4xl mb-5 " >Our Works Process</h1>
-  <p class="text-center lg:mx-60 flex items-center">Constructions are one-kind, lengthy and complex.They have timelines that are measured in years, and this leaves much room for error. How do you organize so many chaotic variables into a high-quality construction project that has a steady and harmonious progression?</p>
+  <button class=" bg-gray-50 rounded-full py-1 px-3 mt-10 lg:mt-20 mb-5 lg:ml-0"><i class="fa-solid fa-arrow-right font-extrabold"></i>How We Work</button>
+  <h1 class="text-2xl font-extrabold lg:text-4xl mb-5 " >Our Works Process</h1>
+  <p class="text-center lg:mx-60 flex items-center font-light">Constructions are one-kind, lengthy and complex.They have timelines that are measured in years, and this leaves much room for error. How do you organize so many chaotic variables into a high-quality construction project that has a steady and harmonious progression?</p>
 </div>
 <!-- Cards -->
 <!-- Card1 -->
@@ -169,8 +191,8 @@
   <div class="card bg-pink-200 text-slate-900 mx-auto lg:ml-28 mb-10 w-72 h-70">
     <div class="card-body">
     <img class="w-10 h-10" src="images/concept.png" alt="">
-      <h2 class="card-title font-bold">Concept</h2>
-      <p>The first stage of the project management life cycle is project initiation.A client has an idea and calls in consultants to see what’s possible. </p>
+      <h2 class="card-title font-extrabold">Concept</h2>
+      <p class="font-light">The first stage of the project management life cycle is project initiation.A client has an idea and calls in consultants to see what’s possible. </p>
       <div class="card-actions">
       </div>
     </div>
@@ -179,8 +201,8 @@
   <div class="card bg-yellow-200 text-slate-900 mx-auto mb-10 lg:ml-10 w-72 h-70">
     <div class="card-body">
       <img class="w-10 h-10" src="images/flow-chart.png" alt="">
-      <h2 class="card-title font-bold">Design Process</h2>
-      <p>In the Design Process, the consultants begin designing and planning the structure, selecting materials and estimating costs.</p>
+      <h2 class="card-title font-extrabold">Design Process</h2>
+      <p class="font-light">In the Design Process, the consultants begin designing and planning the structure, selecting materials and estimating costs.</p>
       <div class="card-actions">
       </div>
     </div>
@@ -189,8 +211,8 @@
   <div class="card bg-green-200 text-slate-900 mx-auto mb-10 lg:-ml-7 w-72 h-70">
     <div class="card-body">
       <img class="w-10 h-10" src="images/vision.png" alt="">
-      <h2 class="card-title font-bold">Supervision</h2>
-      <p>The substructure supervision is the part of the building under the ground, while the superstructure is everything above ground.</p>
+      <h2 class="card-title font-extrabold">Supervision</h2>
+      <p class="font-light">The substructure supervision is the part of the building under the ground, while the superstructure is everything above ground.</p>
       <div class="card-actions">
       </div>
     </div>
@@ -199,8 +221,8 @@
   <div class="card bg-blue-300 text-slate-900 mx-auto mb-10 lg:-ml-24 lg:mr-28 w-72 h-70">
     <div class="card-body">
       <img class="w-10 h-10" src="images/budget-planning.png" alt="">
-      <h2 class="card-title font-bold">Budget Planning</h2>
-      <p>As part of your construction process management, procurement involves all the steps required for the materials to be selected, ordered.</p>
+      <h2 class="card-title font-extrabold">Budget Planning</h2>
+      <p class="font-light">As part of your construction process management, procurement involves all the steps required for the materials to be selected, ordered.</p>
       <div class="card-actions">
       </div>
     </div>
@@ -214,9 +236,9 @@
 <!-- Starting of Our Latest Portfolio Section -->
 <section class="hero bg-base-200 mx-auto">
 <div class="flex flex-col items-center">
-  <button class=" bg-lime-200 rounded-full py-1 px-3 mt-10 lg:mt-20 ml-14 mb-3 lg:ml-0"><i class="fa-solid fa-arrow-right"></i>Explore Our Latest Works</button>
-  <h1 class="text-5xl font-bold mb-5">Our Latest Portfolio</h1>
-  <p class="lg:mx-72 text-center">This is our latest and best works that has been finished in recent day's with good reviews.Some of them has been described for more please contact Us and talk about your requirements Briefly.......</p>
+  <button class=" bg-lime-200 rounded-full py-1 px-3 mt-10 lg:mt-20 ml-14 mb-3 lg:ml-0 "><i class="fa-solid fa-arrow-right"></i>Explore Our Latest Works</button>
+  <h1 class="text-5xl font-extrabold mb-5">Our Latest Portfolio</h1>
+  <p class="lg:mx-72 text-center font-light">This is our latest and best works that has been finished in recent day's with good reviews.Some of them has been described for more please contact Us and talk about your requirements Briefly.......</p>
 </div>
 </section>
 <section class="mx-auto lg:mx-20">
@@ -230,8 +252,8 @@
 <img class="max-w-full h-56" src="images/img1.png" alt="">
 </div>
 <div class="px-5 mx-4 lg:mx-0">
-  <h1 class="text-2xl md:text-3xl font-bold mt-3">Commercial</h1>
-  <p class="lg:max-w-lg max-w-sm">Economic & Commercial House Ideas. Ideas on projects to try for rentals ...</p>
+  <h1 class="text-2xl md:text-3xl font-extrabold mt-3">Commercial</h1>
+  <p class="lg:max-w-lg max-w-sm font-light">Economic & Commercial House Ideas. Ideas on projects to try for rentals ...</p>
   <h3 class="text-xl mt-16 font-semibold">View Details <i class="fa-solid fa-arrow-right -rotate-45 p-2 ml-1 bg-lime-400 rounded-full w-8 h-8"></i></h3>
 </div>
 </div>
@@ -259,8 +281,8 @@
   <img class="max-w-full w-80 h-auto lg:h-52" src="images/img4.png" alt="">
   </div>
   <div class="px-5 mx-4 lg:mx-0">
-    <h1 class="text-2xl md:text-3xl font-bold mt-3">Residential</h1>
-    <p class="lg:max-w-sm max-w-xs">A dwelling unit that constitutes housing that is sufficient
+    <h1 class="text-2xl md:text-3xl font-extrabold mt-3">Residential</h1>
+    <p class="lg:max-w-sm max-w-xs font-light">A dwelling unit that constitutes housing that is sufficient
       to secure quality housing</p>
     <h3 class="text-xl mt-16 font-semibold">View Details <i class="fa-solid fa-arrow-right -rotate-45 p-2 ml-1 bg-lime-400 rounded-full w-8 h-8"></i></h3>
   </div>
@@ -292,6 +314,38 @@
 </div>
 </section>
 <!-- Finishing of Our Latest Portfolio Section -->
+<!-- Starting of Challenges Part2 -->
+<!-- Meet Our Engineers Section -->
+<section class="hero bg-base-200 mx-auto">
+  <div class="flex flex-col items-center">
+  <h1 class="text-4xl font-extrabold">Meet Our Engineers</h1>
+  <p class="max-w-3xl text-center mt-5 font-light">Our Engineers are the top talents handpicked by our Captain. Our Captain is the Leader and Owner or The CEO of our company.She is at the top but treats all of the employees as her equal...</p>
+  <h1 class="text-5xl lg:text-6xl font-extrabold mt-20">MEET OUR CAPTAIN</h1>
+  <img class="mt-10 h-80 w-80 rounded-full" src="images/hrrrero.png" alt="">
+  <h1 class="qwitcher-grypen-regular text-6xl lg:text-9xl font-extrabold">Sarah Lorskov</h1>
+  </div>
+</section>
+<!-- Our Top Recruits -->
+<section class="hero bg-base-200 mx-auto">
+  <div class="grid grid-cols-1 md:grid-cols-3">
+    <div class="flex flex-col items-center mb-10 lg:mb-0 mr-0 lg:mr-5">
+      <img class="h-44 w-44 rounded-full" src="images/civilengtech-.png" alt="">
+      <h1 class="text-5xl dawning-of-a-new-day-regular">Civil Engineer</h1>
+      <h1 class="text-3xl mt-3 font-bold dancing-script-regular">Cisco Rox</h1>
+    </div>
+    <div class="flex flex-col items-center mb-10 lg:mb-0 mr-0 lg:mr-5">
+      <img class="h-44 w-44 rounded-full" src="images/Structural-engineer.png" alt="">
+      <h1 class="text-5xl dawning-of-a-new-day-regular">Structural Engineer</h1>
+      <h1 class="text-3xl mt-3 font-bold dancing-script-regular">Barry Drekov</h1>
+    </div>
+    <div class="flex flex-col items-center">
+      <img class="h-44 w-44 rounded-full" src="images/person-44.png" alt="">
+      <h1 class="text-5xl dawning-of-a-new-day-regular">Project Manager</h1>
+      <h1 class="text-3xl mt-3 font-bold dancing-script-regular">Fin Allen</h1>
+    </div>
+  </div>
+</section>
+<!-- Ending of our Meet Our Team Section -->
 </main>
 
 <!-- Footer Section -->
