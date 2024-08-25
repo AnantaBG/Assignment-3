@@ -51,14 +51,14 @@
 <body class="manrope-regular">
 <!-- Header Section -->
 <!-- Starting of the Navbar section -->
-<section>
-    <nav class="mx-0 lg:mx-20">
+<section class="">
+    <nav class="mx-auto lg:mx-20">
         <div class="navbar bg-base-100  ">
             <div class="navbar-start">
                 <a class="btn btn-ghost text-2xl lg:text-4xl font-extrabold"><i class="fa-solid fa-arrow-right bg-lime-500 w-10 h-10 lg:w-12 lg:h-12 p-2 rounded-full -rotate-45"></i>Rinterio</a>
             </div>
             <div class="navbar-center hidden lg:flex">
-                <ul class="menu menu-horizontal gap-6 text-2xl lg:ml-20">
+                <ul class="menu menu-horizontal gap-4 text-2xl">
                 <li>Home</li>
                 <li>Service</li>
                 <li>Portfolio</li>
@@ -66,7 +66,7 @@
                 <li>Contact Us</li>
                 </ul>
             </div>
-            <div class="lg:relative relative navbar-end  flex lg:gap-4 lg:ml-20 ">
+            <div class="relative navbar-end  flex gap-3 ml-10 ">
             <div class="invisible lg:visible">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
                 <path d="M17.5 17.5L22 22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
@@ -381,7 +381,26 @@
 </main>
 
 <!-- Footer Section -->
-<footer></footer>
-
+<footer class="footer footer-center bg-base-200 text-base-content rounded p-10 bg-black text-white">
+  <div>
+    <a class="btn btn-ghost text-2xl lg:text-4xl font-extrabold"><i class="fa-solid fa-arrow-right bg-lime-400 w-10 h-10 lg:w-12 lg:h-12 p-2 rounded-full -rotate-45 text-black"></i>Rinterio</a>
+    <p class="text-sm max-w-xl py-6 font-lighter opacity-50">
+      The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
+    </p>
+  </div>
+  <nav class="grid grid-flow-row lg:grid-flow-col gap-7 lg:gap-28 text-sm">
+    <a class="link link-hover">Home</a>
+    <a class="link link-hover">Services</a>
+    <a class="link link-hover">Portfolio</a>
+    <a class="link link-hover">Blogs</a>
+    <a class="link link-hover">Contact Us</a>
+  </nav>
+  <nav>
+  </nav>
+  <aside>
+    <button class="btn overflow-ellipsis whitespace-nowrap px-20 lg:px-10 text-base rounded-r-full rounded-l-full bg-lime-400 font-extrabold">Book consult <i class="fa-solid fa-arrow-right w-8 h-8 bg-slate-900 text-sm font-semibold text-white rounded-full -rotate-45 py-1.5"></i></button>
+  </aside>
+</footer>
+<!-- Ending of Footer Section -->
 </body>
 </html>
